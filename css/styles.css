@@ -1,0 +1,46 @@
+.wrapper {
+	text-align: center;
+	display: block;
+	margin-top: 100px;
+}
+
+#carousel {
+	height: 350px;
+	width: 525px;
+	overflow: hidden;
+	border: 7px solid salmon;
+}
+
+div {
+  display: inline-block;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 2100px;
+}
+
+li {
+	width: 525px;
+	float: left;
+}
+
+i.fa {
+  font-size: 80px;
+  position: relative;
+  top: -150px;
+  color: salmon;
+  padding: 0 20px;
+}
+
+.slider-navigation {
+	top: 110px;
+    position: relative;
+}
+
+i.fa-circle-o {
+	font-size: 10px;
+	color: salmon;
+}
